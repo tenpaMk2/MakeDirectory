@@ -1,0 +1,26 @@
+{
+  "name": "makedirectory",
+  "version": "0.1.0",
+  "description": "make directories for scattered files.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenpaMk2/MakeDirectory.git"
+  },
+  "keywords": [
+    "mkdir"
+  ],
+  "author": "tenpaMk2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tenpaMk2/MakeDirectory/issues"
+  },
+  "homepage": "https://github.com/tenpaMk2/MakeDirectory#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
