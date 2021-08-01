@@ -1,6 +1,6 @@
 {
   "name": "makedirectory",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "make directories for scattered files.",
   "type": "module",
   "main": "index.js",
