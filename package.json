@@ -22,5 +22,8 @@
   "homepage": "https://github.com/tenpaMk2/MakeDirectory#readme",
   "devDependencies": {
     "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "commander": "^8.1.0"
   }
 }

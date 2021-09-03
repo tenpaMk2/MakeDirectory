@@ -1,10 +1,19 @@
 import * as fs from "fs/promises";
 import path from "path";
+import { Command } from 'commander/esm.mjs';
 
 // config
-const targetRoot = path.join("test"); // change path as you like 
 const regex = /^(.+)(\ -\ )/g;
 const regIdx = 1;
+
+// argument parse
+const program = new Command();
+program.requiredOption('-i, --input <path>', 'input path');
+program.parse(process.argv);
+
+const options = program.opts();
+const targetRoot = path.resolve(options.input);
+console.log(`targetRoot: ${targetRoot}`);
 
 // main
 const main = async () => {
