@@ -41,5 +41,5 @@ npm install
 change config in `index.js` .
 
 ```
-node index.js
+node index.js -i <inputDirPath>
 ```
